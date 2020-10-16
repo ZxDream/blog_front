@@ -1,5 +1,5 @@
 // const ipUrl = 'http://127.0.0.1:7001/default/';
-const ipUrlProd = 'http://http://39.106.108.23:7001/default/';
+const ipUrl = 'http://http://39.106.108.23:7001/default/';
 
 const servicePath = {
   getArticleList: `${ipUrl}getArticleList`, //首页接口
