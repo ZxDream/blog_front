@@ -1,19 +1,27 @@
 .header {
-  background-color: #fff;
-  padding: 0.4rem;
+  background-color: #009590;
   overflow: hidden;
-  height: 3.2rem;
+  height: 3rem;
   border-bottom: 1px solid #eee;
 }
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0.3rem;
+  }
+}
 .header-logo {
-  color: #1e90ff;
+  color: #fff;
   font-size: 1.4rem;
   text-align: left;
 }
+.header-pointer {
+  cursor: pointer;
+}
 .header-txt {
+  position: relative;
+  top: 0.1rem;
   font-size: 0.6rem;
-  color: #999;
-  display: inline-block;
+  color: #fff;
   padding-left: 0.3rem;
 }
 .ant-meu {
@@ -23,4 +31,17 @@
   font-size: 1rem !important;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.header-left-wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ant-menu-horizontal {
+  background-color: #009590;
+}
+.home-text {
+  color: #fff;
+  position: relative;
+  top: 0.09rem;
 }

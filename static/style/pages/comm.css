@@ -37,3 +37,15 @@ body {
   display: inline-block;
   padding: 0 10px;
 }
+.ant-breadcrumb a:hover {
+  color: #3ebab5;
+}
+a,
+a:active,
+.ant-breadcrumb a {
+  color: #3ebab5;
+}
+a:hover,
+.ant-breadcrumb a:hover {
+  color: #68e1dc;
+}
