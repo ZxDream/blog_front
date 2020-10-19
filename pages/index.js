@@ -62,9 +62,9 @@ const Home = list => {
                     <span>
                       <Icon type="folder" /> {item.typeName}
                     </span>
-                    <span>
+                    {/* <span>
                       <Icon type="fire" /> {item.view_count}人
-                    </span>
+                    </span> */}
                   </div>
                   <div
                     className="list-context"

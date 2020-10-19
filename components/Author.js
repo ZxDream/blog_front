@@ -12,7 +12,7 @@ const Author = () => {
         />
       </div>
       <div className="author-introduction">
-        三叶
+        Only
         <Divider>社交账号</Divider>
         <Avatar size={28} icon="github" className="account" />
         <Avatar size={28} icon="qq" className="account" />

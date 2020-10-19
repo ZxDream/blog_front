@@ -18,6 +18,7 @@ import '../static/style/pages/detail.css';
 import 'markdown-navbar/dist/navbar.css';
 
 const Detail = props => {
+  console.log('2222222', props);
   const tocify = new Tocify();
   const renderer = new marked.Renderer();
   renderer.heading = function (text, level, raw) {
@@ -53,26 +54,26 @@ const Detail = props => {
                 <Breadcrumb.Item>
                   <a href="/">首页</a>
                 </Breadcrumb.Item>
-                <Breadcrumb.Item>视频列表</Breadcrumb.Item>
-                <Breadcrumb.Item>xxxx</Breadcrumb.Item>
+                <Breadcrumb.Item>
+                  <a href={`/list?id=${props.typeId}`}>{props.typeName}</a>
+                </Breadcrumb.Item>
+                <Breadcrumb.Item>{props.title}</Breadcrumb.Item>
               </Breadcrumb>
             </div>
 
             <div>
-              <div className="detailed-title">
-                React实战视频教程-技术胖Blog开发(更新08集)
-              </div>
+              <div className="detailed-title">{props.title}</div>
 
               <div className="list-icon center">
                 <span>
-                  <Icon type="calendar" /> 2019-06-28
+                  <Icon type="calendar" /> {props.addTime}
                 </span>
                 <span>
-                  <Icon type="folder" /> 视频教程
+                  <Icon type="folder" /> {props.typeName}
                 </span>
-                <span>
-                  <Icon type="fire" /> 5498人
-                </span>
+                {/* <span>
+                  <Icon type="fire" /> {props.view_count}人
+                </span> */}
               </div>
 
               <div
