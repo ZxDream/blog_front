@@ -1,5 +1,5 @@
 // const ipUrl = 'http://127.0.0.1:7001/default/';
-const ipUrl = 'http://www.zonly.top/default/';
+const ipUrl = 'http://zonly.top/default/';
 
 const servicePath = {
   getArticleList: `${ipUrl}getArticleList`, //首页接口

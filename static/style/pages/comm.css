@@ -49,3 +49,10 @@ a:hover,
 .ant-breadcrumb a:hover {
   color: #68e1dc;
 }
+
+.ant-anchor-link-active > .ant-anchor-link-title {
+  color: #3ebab5;
+}
+.ant-anchor-ink-ball {
+  border: 2px solid #3ebab5;
+}
