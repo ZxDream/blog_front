@@ -18,7 +18,6 @@ import '../static/style/pages/detail.css';
 import 'markdown-navbar/dist/navbar.css';
 
 const Detail = props => {
-  console.log('2222222', props);
   const tocify = new Tocify();
   const renderer = new marked.Renderer();
   renderer.heading = function (text, level, raw) {
